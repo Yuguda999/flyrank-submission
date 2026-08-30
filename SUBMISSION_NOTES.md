@@ -37,7 +37,7 @@
 > the guardrail in the system rather than the prompt — was mine, and so was
 > the testing that caught three bugs AI introduced.
 >
-> **Demo video:** [YOUR UNLISTED YOUTUBE LINK]. Live end-to-end run, no
+> **Demo video:** https://youtu.be/U7sRo703ZFI. Live end-to-end run, no
 > slides. Explains the design decision (deterministic script feeding the
 > model, so it cannot invent activity) and one limitation on camera
 > (local-only — no GitHub API, so PRs and CI are invisible to it).

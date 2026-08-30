@@ -38,7 +38,7 @@ permitted to summarise what that script actually printed.
 | Eval results & limitations | [README § Eval results](https://github.com/Yuguda999/weekly-review-agent#eval-results-v2) |
 | Where AI did the work | [README § Where AI did the work](https://github.com/Yuguda999/weekly-review-agent#where-ai-did-the-work) |
 | Design spec (written before building) | [06-agent-design-spec.pdf](deliverables/06-agent-design-spec.pdf) |
-| Demo video (3–5 min, live run) | *see Deliverable links in the portal* |
+| Demo video (3–5 min, live run) | [youtu.be/U7sRo703ZFI](https://youtu.be/U7sRo703ZFI) |
 
 Run it yourself:
 
