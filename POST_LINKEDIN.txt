@@ -22,9 +22,9 @@ It passed in place and failed from a clone. That gap is the entire distance betw
 
 One more, since honesty is the point.
 
-I asked a backend dev for a blind crit of my portfolio — link and two questions, no context, because if I'd told him what the site was supposed to say he'd have read it back to me. He got what I do in ten seconds. Then: "cautiously yes, but I haven't seen a single number."
+I asked a backend dev for a blind crit of my portfolio — link and two questions, no context. He got what I do in ten seconds. Then: "cautiously yes, but I haven't seen a single number."
 
-He was right, and worse than he knew. A metric from a system I shipped — 5,000+ processed questions at a 98% success rate — had been on my CV for months and never made it onto my own site. I'd also led with my capstone, a tool with exactly one user (me), under a headline claiming "systems that ship," while the thing that actually shipped got one clause and a link elsewhere. I had inverted my own evidence and couldn't see it.
+He was right, and worse than he knew. A metric from a system I shipped — 5,000+ processed questions at 98% — had been on my CV for months and never made it onto my own site. I'd also led with my capstone, a tool with one user (me), under a headline claiming "systems that ship," while the thing that actually shipped got one clause and a link elsewhere. I had inverted my own evidence.
 
 The fix took an afternoon. Noticing was the hard part, and I didn't.
 
