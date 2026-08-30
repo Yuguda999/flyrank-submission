@@ -55,7 +55,7 @@
 > **Live portfolio:** yuguda999.github.io/ys-dev and yuguda.netlify.app —
 > five pages, four case studies, one action.
 >
-> **Build-in-public post:** [YOUR LINKEDIN URL]. Covers one real decision
+> **Build-in-public post:** https://www.linkedin.com/feed/update/urn:li:ugcPost:7499843400519688192/. Covers one real decision
 > (putting the agent's guardrail in the architecture instead of the
 > instructions) and one real limitation (my eval suite passed in place and
 > failed from a fresh clone — the gap between "works on my machine" and "a
