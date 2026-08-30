@@ -20,6 +20,7 @@ Everything I built on this track, in one place.
 | **Portfolio (live)** | https://yuguda999.github.io/ys-dev/ · https://yuguda.netlify.app/ |
 | **Capstone agent** | [weekly-review-agent](https://github.com/Yuguda999/weekly-review-agent) |
 | **Retrospective** | [RETROSPECTIVE.md](RETROSPECTIVE.md) |
+| **Build write-up** | [BUILD_WRITEUP.md](BUILD_WRITEUP.md) |
 | **Build-in-public post** | [LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7499843400519688192/) · [draft](POST_LINKEDIN.txt) |
 
 ---
@@ -80,6 +81,7 @@ studies, one action (email for a technical screening).
 | 9 | Plan to keep building — how to add the next case, next piece named, cron reminder | [09-plan-to-keep-building.pdf](deliverables/09-plan-to-keep-building.pdf) |
 | 9 | Identity kit + content map — claim, sections, palette with hex codes, favicon, rejection note | [09-identity-kit-and-content-map.pdf](deliverables/09-identity-kit-and-content-map.pdf) |
 | 10 | Retrospective | [RETROSPECTIVE.md](RETROSPECTIVE.md) |
+| 10 | Build write-up — stack and why, hardest break, what's next | [BUILD_WRITEUP.md](BUILD_WRITEUP.md) |
 | 10 | Build-in-public post | [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7499843400519688192/) |
 
 ---
