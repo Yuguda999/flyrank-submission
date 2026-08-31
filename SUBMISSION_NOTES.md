@@ -84,3 +84,53 @@
 >
 > Happy to complete both the moment the subdomain and verification link are
 > issued, and to resubmit for sign-off then if that's cleaner.
+
+---
+
+## For Week 10 Capstone (Send the Link: Launch, Demo & Story)
+
+> **1. The launched portfolio** — https://yuguda.netlify.app
+> Five pages, four case studies, one action (contact for a technical
+> screening). One claim: *I build models that survive production.* Also
+> mirrored at yuguda999.github.io/ys-dev, which carries `rel=canonical`
+> pointing at the Netlify origin — that's the only host where the contact
+> form's POST handler exists.
+>
+> **2. The proof (build-in-public story)** —
+> https://www.linkedin.com/feed/update/urn:li:ugcPost:7499843400519688192/
+> One real win: putting the agent's guardrail in the architecture rather
+> than the prompt, so it cannot invent activity by construction. One real
+> limitation: my eval suite passed in place and failed from a fresh clone,
+> because the config file was clobbering environment variables and silently
+> made every documented override a no-op for anyone following my own setup
+> instructions.
+>
+> **3. The package**
+> - Demo (3m26s, live, no slides): https://youtu.be/rFYE0ezQ6jY
+> - Build write-up: github.com/Yuguda999/flyrank-submission/blob/main/BUILD_WRITEUP.md
+>   — the stack decision (hand-written static HTML so every deployed file is
+>   explainable; Netlify because GitHub Pages cannot process a form at any
+>   price), the hardest break, and what I'd build next.
+> - Plan to keep building: `deliverables/09-plan-to-keep-building.pdf` —
+>   next piece named (DevMemory), with a live monthly cron reminder on my
+>   machine (`crontab -l` shows it) rather than an intention.
+>
+> **The hardest break, since it's the honest part:** my deploy process was
+> dragging the project folder onto Netlify Drop, which uploads everything in
+> it — including `.git`. For a period `/.git/config` returned HTTP 200 and my
+> whole commit history was publicly downloadable. Nothing warns you; the site
+> looked perfect. I found it by probing my own site for things that should
+> not be there. The fix wasn't "remember not to do that" — it's
+> `git archive HEAD`, which exports tracked files only, so the folder I
+> deploy physically cannot contain `.git`. The same instinct later caught a
+> chat transcript with my account UUID being served publicly, and — on the
+> last day — that my two public URLs had drifted into two different sites,
+> one with the contact form and one without.
+>
+> **4. The FlyRank loop** — the graduate badge is installed in the footer but
+> currently points at the course homepage, marked `data-placeholder` in the
+> markup, because verification pages are issued mid-September per the portal
+> Q&A. Same reason `yuguda.flyrank.ai` is still NXDOMAIN. The DNS walkthrough
+> in `deliverables/06-dns-walkthrough.pdf` is the checklist I'll run the
+> moment the record exists — Netlify accepts a custom domain with no rebuild.
+> Happy to be featured as a case study.
